@@ -1,5 +1,5 @@
 
-@media (min-width: 1px){
+@media (min-width: 0px) and (max-width: 640px){
 	
 body {background-image: url("../images/dark_embroidery.png");
 	margin: 0;
@@ -7,7 +7,7 @@ body {background-image: url("../images/dark_embroidery.png");
 	background-repeat: repeat;
 	background-color: #ffffff;
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
-	width: 960px;
+	width: 640px;
 	height: 100%;}
 
 #MainBox{overflow: auto;
@@ -15,24 +15,24 @@ body {background-image: url("../images/dark_embroidery.png");
 	margin-bottom: 50px;}
 	
 #UpperSection{background-color: #ffffff;
-	width: 960px;
-	height: 73px;
+	width: 640px;
+	height: 120px;
 	border-bottom: solid #cccccc;}
 	
 #LowerSection{background-color: #666666;
-	width: 960px;
+	width: 640px;
 	height: 73px;}
 
 #MainSection{width: 610px;
 	float: left;
-	margin-left: 40px;
+	margin-left: 15px;
 	margin-top: 20px;
 	background-color: #ffffff;
 	border: solid #cccccc;}
 
-#SideSection{width: 250px;
+#SideSection{width: 610px;
 	float: left;
-	margin-left: 35px;
+	margin-left: 15px;
 	margin-top: 20px;
 	background-color: #ffffff;
 	border: solid #cccccc;}
@@ -47,26 +47,29 @@ body {background-image: url("../images/dark_embroidery.png");
 	color: #ffffff;}
 	  
 #MyName {font-family:'Georgia', Times, Times New Roman, serif;
+	width: 640px;
+	text-align: center;
+	position: absolute;
 	font-size: 32px;
-	margin-right: 590px;
-	margin-left: 40px;
 	margin-top: 0px;
 	background-color: #4aaaa5;
 	color: #ffffff;
-	padding: 20px;
-	padding-bottom: 21px;}
+	padding-top: 14px;
+	padding-bottom: 14px;}
 	
 #TealLine{background-color:#4aaaa5;
 	height: 6px;}
 
 #CopyRight{color: #ffffff;
 	font-size: 12px;
-	margin-left: 365px;
+	margin-left: 35%;
 	margin-top: 25px;
 	float: left;}
 	
-#PictureAbout{float: left;
-	margin: 10px;}
+#PictureAbout{margin: 10px;
+	height: 300px;
+	width: 300px;
+	margin-left: 25%;}
 
 .ContactInfo{color: #777777;
 	font-size: 18px;
@@ -78,18 +81,18 @@ body {background-image: url("../images/dark_embroidery.png");
 
 .Links{float: right;
 	color: #777777;
-	font-size: 18px;
-	margin-top: 25px;
-	margin-right: 10px;
-	padding-right: 10px;
+	font-size: 20px;
+	margin-top: 75px;
+	margin-right: 10%;
+	padding-right: 10%;
 	text-decoration: none;
 	border-right: solid #cccccc 1px;}
 	
-.Links-R{margin-right: 30px;
-	border-right: none;}
+.Links-R{border-right: none;}
 
 .TextMain{color: #777777;
 	font-size: 18px;
+	margin-left: 10px;
 	margin-top: 20px;}
 
 .TextSection{font-family:'Georgia', Times, Times New Roman, serif;
@@ -106,7 +109,11 @@ body {background-image: url("../images/dark_embroidery.png");
 .TextSection-R{margin-left: 325px;}
 	
 .PictureLinks{float: left;
-	padding: 15px;}
+	height: 80px;
+	width: 80px;
+	padding: 5px;
+	margin-bottom: 20px;
+	margin-left: 10px;}
 	
 .PictureSection{overflow: auto;
 	margin-bottom: 5px;}
@@ -120,7 +127,7 @@ body {background-image: url("../images/dark_embroidery.png");
 	
 .Title{color: #4aaaa5;
 	font-size: 30px;
-	text-align: center;
+	text-align: left;
 	border-bottom: solid #cccccc;
 	padding-top: 10px;
 	padding-bottom: 10px;
@@ -129,7 +136,7 @@ body {background-image: url("../images/dark_embroidery.png");
 .Title-1{text-align: left;}
 }
 
-@media (min-width: 640px){
+@media (min-width: 641px) and (max-width: 768px){
 	
 body {background-image: url("../images/dark_embroidery.png");
 	margin: 0;
@@ -137,7 +144,7 @@ body {background-image: url("../images/dark_embroidery.png");
 	background-repeat: repeat;
 	background-color: #ffffff;
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
-	width: 960px;
+	width: 768px;
 	height: 100%;}
 
 #MainBox{overflow: auto;
@@ -145,12 +152,12 @@ body {background-image: url("../images/dark_embroidery.png");
 	margin-bottom: 50px;}
 	
 #UpperSection{background-color: #ffffff;
-	width: 960px;
+	width: 768px;
 	height: 73px;
 	border-bottom: solid #cccccc;}
 	
 #LowerSection{background-color: #666666;
-	width: 960px;
+	width: 768px;
 	height: 73px;}
 
 #MainSection{width: 610px;
@@ -160,9 +167,9 @@ body {background-image: url("../images/dark_embroidery.png");
 	background-color: #ffffff;
 	border: solid #cccccc;}
 
-#SideSection{width: 250px;
+#SideSection{width: 610px;
 	float: left;
-	margin-left: 35px;
+	margin-left: 40px;
 	margin-top: 20px;
 	background-color: #ffffff;
 	border: solid #cccccc;}
@@ -177,21 +184,22 @@ body {background-image: url("../images/dark_embroidery.png");
 	color: #ffffff;}
 	  
 #MyName {font-family:'Georgia', Times, Times New Roman, serif;
-	font-size: 32px;
-	margin-right: 590px;
+	font-size: 23px;
+	margin-right: 490px;
 	margin-left: 40px;
 	margin-top: 0px;
 	background-color: #4aaaa5;
 	color: #ffffff;
 	padding: 20px;
-	padding-bottom: 21px;}
+	padding-top: 23;
+	padding-bottom: 22px;}
 	
 #TealLine{background-color:#4aaaa5;
 	height: 6px;}
 
 #CopyRight{color: #ffffff;
 	font-size: 12px;
-	margin-left: 365px;
+	margin-left: 250px;
 	margin-top: 25px;
 	float: left;}
 	
@@ -204,7 +212,7 @@ body {background-image: url("../images/dark_embroidery.png");
 	margin-bottom: 5px;
 	margin-left: 10px;}
 	
-.InputBox{width: 560px;}
+.InputBox{width: 565px;}
 
 .Links{float: right;
 	color: #777777;
@@ -220,7 +228,8 @@ body {background-image: url("../images/dark_embroidery.png");
 
 .TextMain{color: #777777;
 	font-size: 18px;
-	margin-top: 20px;}
+	margin-top: 20px;
+	margin-left: 10px;}
 
 .TextSection{font-family:'Georgia', Times, Times New Roman, serif;
 	text-align: center;
@@ -236,10 +245,13 @@ body {background-image: url("../images/dark_embroidery.png");
 .TextSection-R{margin-left: 325px;}
 	
 .PictureLinks{float: left;
-	padding: 15px;}
+	margin: 10px;
+	margin-top:0px;
+	height: 60px;
+	width: 60px;}
 	
 .PictureSection{overflow: auto;
-	margin-bottom: 5px;}
+}
 
 .PicturePortfolio{float:left;
 	position: relative;
@@ -250,7 +262,7 @@ body {background-image: url("../images/dark_embroidery.png");
 	
 .Title{color: #4aaaa5;
 	font-size: 30px;
-	text-align: center;
+	text-align: left;
 	border-bottom: solid #cccccc;
 	padding-top: 10px;
 	padding-bottom: 10px;
@@ -259,7 +271,7 @@ body {background-image: url("../images/dark_embroidery.png");
 .Title-1{text-align: left;}
 }
 
-@media (min-width: 768px){
+@media (min-width: 769px){
 	
 body {background-image: url("../images/dark_embroidery.png");
 	margin: 0;
@@ -350,7 +362,8 @@ body {background-image: url("../images/dark_embroidery.png");
 
 .TextMain{color: #777777;
 	font-size: 18px;
-	margin-top: 20px;}
+	margin-top: 20px;
+	margin-left: 10px;}
 
 .TextSection{font-family:'Georgia', Times, Times New Roman, serif;
 	text-align: center;
@@ -366,7 +379,9 @@ body {background-image: url("../images/dark_embroidery.png");
 .TextSection-R{margin-left: 319px;}
 	
 .PictureLinks{float: left;
-	padding: 15px;}
+	margin: 10px;
+	height: 60px;
+	width: 60px;}
 	
 .PictureSection{overflow: auto;
 	margin-bottom: 5px;}

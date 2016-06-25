@@ -63,7 +63,9 @@ body {background-image: url("../images/dark_embroidery.png");
 	float: left;}
 	
 #PictureAbout{float: left;
-	margin: 10px;}
+	margin: 10px;
+	width:300; 
+	height:300;}
 
 .ContactInfo{color: #777777;
 	font-size: 18px;
@@ -103,13 +105,17 @@ body {background-image: url("../images/dark_embroidery.png");
 .TextSection-R{margin-left: 319px;}
 	
 .PictureLinks{float: left;
-	padding: 15px;}
+	margin: 10px;
+	height: 60px;
+	width: 60px;}
 	
 .PictureSection{overflow: auto;
 	margin-bottom: 5px;}
 
 .PicturePortfolio{float:left;
 	position: relative;
+	width:275; 
+	height:200;
 	margin: 10px;
 	z-index: 1;}
 	

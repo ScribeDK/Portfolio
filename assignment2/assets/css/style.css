@@ -51,7 +51,7 @@ body {background-image: url("../images/dark_embroidery.png");
 	background-color: #4aaaa5;
 	color: #ffffff;
 	padding: 20px;
-	padding-bottom: 21px;}
+	padding-bottom: 15px;}
 	
 #TealLine{background-color:#4aaaa5;
 	height: 6px;}
@@ -71,7 +71,7 @@ body {background-image: url("../images/dark_embroidery.png");
 	margin-bottom: 5px;
 	margin-left: 10px;}
 	
-.InputBox{width: 560px;}
+.InputBox{width: 565px;}
 
 .Links{float: right;
 	color: #777777;
@@ -100,7 +100,7 @@ body {background-image: url("../images/dark_embroidery.png");
 	position: absolute;
 	z-index: 2;}
 
-.TextSection-R{margin-left: 325px;}
+.TextSection-R{margin-left: 319px;}
 	
 .PictureLinks{float: left;
 	padding: 15px;}

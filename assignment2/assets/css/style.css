@@ -1,8 +1,9 @@
 body {margin: 0;
 	padding: 0;
-	width: 960px;
 	height: 100%;}
 
+#Size{width: 960px;}
+	
 .MainBox{background-image: url("../images/dark_embroidery.png");
 	background-repeat: repeat;
 	padding-top: 50px;
@@ -10,25 +11,16 @@ body {margin: 0;
 	min-height: 400px;
 	padding-bottom: 50px;}
 	
-.UpperSection{width: 960px;
-	height: 73px;
+.UpperSection{height: 73px;
 	border-bottom: solid #888888 1px;}
 	
 .SubSection{height:73px;}
 	
 .LowerSection{border-top: solid #888888 1px;
-	width: 960px;
 	height: 73px;}
 
 .SectionBorder {border: solid #888888 1px;
 	background-color: black;}
-
-#SideSection{width: 250px;
-	float: left;
-	margin-left: 35px;
-	margin-top: 20px;
-	background-color: #ffffff;
-	border: solid #cccccc;}
 
 #SubmitBtn{font-family:'Georgia', Times, Times New Roman, serif;
 	font-size: 20px;
@@ -38,6 +30,8 @@ body {margin: 0;
 	padding-right: 10px;
 	background-color: silver;
 	color: black;}
+	
+#SubmitBtn:active{background-color: gold;}
 	  
 #MyName {margin-top: 0px;
 	background-color: #777777;
@@ -48,7 +42,7 @@ body {margin: 0;
 .TealLine{background-color:#4aaaa5;
 	height: 6px;}
 
-#Copyright{margin-top: 25px;
+#Copyright{margin-top: 10%;
 	text-align: center;}
 	
 #PictureAbout{float: left;

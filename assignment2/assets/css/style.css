@@ -1,31 +1,27 @@
-body {background-image: url("../images/dark_embroidery.png");
-	margin: 0;
+body {margin: 0;
 	padding: 0;
-	background-repeat: repeat;
-	background-color: #ffffff;
-    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
 	width: 960px;
 	height: 100%;}
 
-#MainBox{overflow: auto;
-	min-height: 500px;
-	margin-bottom: 50px;}
+.MainBox{background-image: url("../images/dark_embroidery.png");
+	background-repeat: repeat;
+	padding-top: 50px;
+	overflow: auto;
+	min-height: 400px;
+	padding-bottom: 50px;}
 	
-#UpperSection{background-color: #ffffff;
-	width: 960px;
+.UpperSection{width: 960px;
 	height: 73px;
-	border-bottom: solid #cccccc;}
+	border-bottom: solid #888888 1px;}
 	
-#LowerSection{background-color: #666666;
+.SubSection{height:73px;}
+	
+.LowerSection{border-top: solid #888888 1px;
 	width: 960px;
 	height: 73px;}
 
-#MainSection{width: 610px;
-	float: left;
-	margin-left: 40px;
-	margin-top: 20px;
-	background-color: #ffffff;
-	border: solid #cccccc;}
+.SectionBorder {border: solid #888888 1px;
+	background-color: black;}
 
 #SideSection{width: 250px;
 	float: left;
@@ -40,27 +36,20 @@ body {background-image: url("../images/dark_embroidery.png");
 	padding: 5px;
 	padding-left: 10px;
 	padding-right: 10px;
-	background-color: #4aaaa5;
-	color: #ffffff;}
+	background-color: silver;
+	color: black;}
 	  
-#MyName {font-family:'Georgia', Times, Times New Roman, serif;
-	font-size: 32px;
-	margin-right: 590px;
-	margin-left: 40px;
-	margin-top: 0px;
-	background-color: #4aaaa5;
-	color: #ffffff;
-	padding: 20px;
-	padding-bottom: 15px;}
+#MyName {margin-top: 0px;
+	background-color: #777777;
+	padding-top: 10%;
+	height: 73px;
+	text-align: center;}
 	
-#TealLine{background-color:#4aaaa5;
+.TealLine{background-color:#4aaaa5;
 	height: 6px;}
 
-#CopyRight{color: #ffffff;
-	font-size: 12px;
-	margin-left: 365px;
-	margin-top: 25px;
-	float: left;}
+#Copyright{margin-top: 25px;
+	text-align: center;}
 	
 #PictureAbout{float: left;
 	margin: 10px;
@@ -76,13 +65,15 @@ body {background-image: url("../images/dark_embroidery.png");
 .InputBox{width: 565px;}
 
 .Links{float: right;
-	color: #777777;
 	font-size: 18px;
 	margin-top: 25px;
 	margin-right: 10px;
 	padding-right: 10px;
 	text-decoration: none;
+	color: gold;
 	border-right: solid #cccccc 1px;}
+	
+.Links:hover{color: yellow;}
 	
 .Links-R{margin-right: 30px;
 	border-right: none;}
@@ -94,39 +85,35 @@ body {background-image: url("../images/dark_embroidery.png");
 .TextSection{font-family:'Georgia', Times, Times New Roman, serif;
 	text-align: center;
 	margin: 10px;
-	font-size: 28px;
-	background-color: #4aaaa5;
-	color: #ffffff;
-	width: 275px;
+	font-size: 24px;
+	background-color: #888888;
+	width: 200px;
 	margin-top: 170px;
 	position: absolute;
 	z-index: 2;}
 
-.TextSection-R{margin-left: 319px;}
+.TextSection-R{margin-left: 253px;}
 	
 .PictureLinks{float: left;
 	margin: 10px;
-	height: 60px;
-	width: 60px;}
+	height: 50px;
+	width: 50px;}
 	
 .PictureSection{overflow: auto;
 	margin-bottom: 5px;}
 
 .PicturePortfolio{float:left;
 	position: relative;
-	width:275; 
+	width:200; 
 	height:200;
 	margin: 10px;
 	z-index: 1;}
 	
 .PicturePortfolio-R{float:right;}
 	
-.Title{color: #4aaaa5;
-	font-size: 30px;
+.Title{padding-top: 5px;
+	padding-bottom: 5px;
 	text-align: center;
-	border-bottom: solid #cccccc;
-	padding-top: 10px;
-	padding-bottom: 10px;
-	margin: 10px;}
+	border-bottom: solid #777777;}
 	
 .Title-1{text-align: left;}

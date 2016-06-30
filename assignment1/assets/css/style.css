@@ -10,9 +10,11 @@ body {background-image: url("../images/dark_embroidery.png");
 	width: 640px;
 	height: 100%;}
 	
-#Size{width: 640px;}
+#Size{width: 640px;
+	overflow: hidden;}
 
-#MainBox{overflow: auto;
+#MainBox{width: 640px;
+	overflow: auto;
 	min-height: 500px;
 	margin-bottom: 50px;}
 	
@@ -67,8 +69,6 @@ body {background-image: url("../images/dark_embroidery.png");
 	float: left;}
 	
 #PictureAbout{margin: 10px;
-	height: 300px;
-	width: 300px;
 	margin-left: 25%;}
 
 .ContactInfo{color: #777777;
@@ -109,8 +109,6 @@ body {background-image: url("../images/dark_embroidery.png");
 .TextSection-R{margin-left: 325px;}
 	
 .PictureLinks{float: left;
-	height: 80px;
-	width: 80px;
 	padding: 5px;
 	margin-bottom: 20px;
 	margin-left: 10px;}
@@ -147,7 +145,8 @@ body {background-image: url("../images/dark_embroidery.png");
 	width: 768px;
 	height: 100%;}
 	
-#Size{width: 768px;}
+#Size{width: 768px;
+	overflow: hidden;}
 
 #MainBox{overflow: auto;
 	min-height: 500px;
@@ -248,9 +247,7 @@ body {background-image: url("../images/dark_embroidery.png");
 	
 .PictureLinks{float: left;
 	margin: 10px;
-	margin-top:0px;
-	height: 60px;
-	width: 60px;}
+	margin-top:0px;}
 	
 .PictureSection{overflow: auto;
 }
@@ -284,7 +281,8 @@ body {background-image: url("../images/dark_embroidery.png");
 	width: 960px;
 	height: 100%;}
 
-#Size{width: 960px;}	
+#Size{width: 960px;
+	overflow: hidden;}	
 	
 #MainBox{overflow: auto;
 	min-height: 500px;
@@ -383,9 +381,7 @@ body {background-image: url("../images/dark_embroidery.png");
 .TextSection-R{margin-left: 319px;}
 	
 .PictureLinks{float: left;
-	margin: 10px;
-	height: 60px;
-	width: 60px;}
+	margin: 10px;}
 	
 .PictureSection{overflow: auto;
 	margin-bottom: 5px;}
